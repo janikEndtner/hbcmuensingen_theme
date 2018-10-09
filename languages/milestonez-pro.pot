@@ -1,0 +1,1852 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Milestonez Pro\n"
+"POT-Creation-Date: 2017-03-16 23:46+0530\n"
+"PO-Revision-Date: 2017-03-16 23:47+0530\n"
+"Last-Translator: \n"
+"Language-Team: Grace Themes <support@gracethemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;__;_e;gettext;gettext_noop;esc_attr;esc_attr__;"
+"esc_attr_e;esc_html;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14
+msgid "<strong>404</strong> Not Found"
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"Looks like you have taken a wrong turn.....<br />Don't worry... it happens "
+"to the best of us."
+msgstr ""
+
+#: archive.php:42
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:50
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:53
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:56
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:59
+msgid "Asides"
+msgstr ""
+
+#: archive.php:62
+msgid "Images"
+msgstr ""
+
+#: archive.php:65
+msgid "Videos"
+msgstr ""
+
+#: archive.php:68
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:71
+msgid "Links"
+msgstr ""
+
+#: archive.php:74 sidebar-blog.php:18 sidebar.php:18
+msgid "Archives"
+msgstr ""
+
+#: comments.php:36 comments.php:56
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:37 comments.php:57
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:38 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: content-page.php:18 content-single.php:28 content.php:36 image.php:59
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:23 content-single.php:40 image.php:33 image.php:65
+#: inc/template-tags.php:70 inc/template-tags.php:89
+msgid "Edit"
+msgstr ""
+
+#: content.php:33
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:51
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:52
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:65
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:66
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: functions.php:75
+msgid "Sidebar Main"
+msgstr ""
+
+#: functions.php:76
+msgid "Appears on page sidebar"
+msgstr ""
+
+#: functions.php:85
+msgid "Header Widget"
+msgstr ""
+
+#: functions.php:86
+msgid "Appears on header"
+msgstr ""
+
+#: functions.php:95
+msgid "Footer Widget 1"
+msgstr ""
+
+#: functions.php:96 functions.php:106 functions.php:116 functions.php:126
+msgid "Appears on footer"
+msgstr ""
+
+#: functions.php:105
+msgid "Footer Widget 2"
+msgstr ""
+
+#: functions.php:115
+msgid "Footer Widget 3"
+msgstr ""
+
+#: functions.php:125
+msgid "Footer Widget 4"
+msgstr ""
+
+#: functions.php:136
+msgid "Sidebar Contact Page"
+msgstr ""
+
+#: functions.php:137
+msgid "Appears on contact page"
+msgstr ""
+
+#: header.php:76
+msgid "Menu"
+msgstr ""
+
+#: image.php:23
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a "
+"href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: image.php:38
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: image.php:39
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/custom-functions.php:134
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: inc/custom-functions.php:153 inc/custom-functions.php:154
+msgid "Testimonial"
+msgstr ""
+
+#: inc/custom-functions.php:155
+msgid "Add Testimonial"
+msgstr ""
+
+#: inc/custom-functions.php:156
+msgid "Add New Testimonial"
+msgstr ""
+
+#: inc/custom-functions.php:157
+msgid "Edit Testimonial"
+msgstr ""
+
+#: inc/custom-functions.php:158
+msgid "New Testimonial"
+msgstr ""
+
+#: inc/custom-functions.php:159
+msgid "All Testimonials"
+msgstr ""
+
+#: inc/custom-functions.php:160
+msgid "View Testimonial"
+msgstr ""
+
+#: inc/custom-functions.php:161
+msgid "Search Testimonials"
+msgstr ""
+
+#: inc/custom-functions.php:162
+msgid "No testimonials found"
+msgstr ""
+
+#: inc/custom-functions.php:163
+msgid "No testimonials found in the Trash"
+msgstr ""
+
+#: inc/custom-functions.php:397 inc/custom-functions.php:398 options.php:2366
+msgid "Our Team"
+msgstr ""
+
+#: inc/custom-functions.php:399 inc/custom-functions.php:683
+msgid "Add New"
+msgstr ""
+
+#: inc/custom-functions.php:400
+msgid "Add New Team Member"
+msgstr ""
+
+#: inc/custom-functions.php:401
+msgid "Edit Team Member"
+msgstr ""
+
+#: inc/custom-functions.php:402
+msgid "New Member"
+msgstr ""
+
+#: inc/custom-functions.php:403
+msgid "All Members"
+msgstr ""
+
+#: inc/custom-functions.php:404
+msgid "View Members"
+msgstr ""
+
+#: inc/custom-functions.php:405
+msgid "Search Team Members"
+msgstr ""
+
+#: inc/custom-functions.php:406
+msgid "No Team members found"
+msgstr ""
+
+#: inc/custom-functions.php:407
+msgid "No Team members found in the Trash"
+msgstr ""
+
+#: inc/custom-functions.php:681 inc/custom-functions.php:682 options.php:2329
+msgid "Photo Gallery"
+msgstr ""
+
+#: inc/custom-functions.php:684
+msgid "Add New Image "
+msgstr ""
+
+#: inc/custom-functions.php:685
+msgid "Edit Image"
+msgstr ""
+
+#: inc/custom-functions.php:686
+msgid "New Image"
+msgstr ""
+
+#: inc/custom-functions.php:687
+msgid "All Images"
+msgstr ""
+
+#: inc/custom-functions.php:688
+msgid "View Image"
+msgstr ""
+
+#: inc/custom-functions.php:689
+msgid "Search Images"
+msgstr ""
+
+#: inc/custom-functions.php:690
+msgid "No images found"
+msgstr ""
+
+#: inc/custom-functions.php:691
+msgid "No images found in the Trash"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:85
+#: inc/includes/class-options-framework-admin.php:86
+msgid "Theme Options"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:210
+msgid "Save Options"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:211
+msgid "Restore Defaults"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:211
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:219
+msgid "Our Themes"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:225
+msgid "Forum"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:227
+msgid "You can post your questions at our"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:227
+msgid "support forum"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:231
+msgid "Documentation"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:233
+msgid "For documentation and support check this link"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:265
+msgid "Default options restored."
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:319
+msgid "Options saved."
+msgstr ""
+
+#: inc/includes/class-options-interface.php:24
+msgid "#options-group-"
+msgstr ""
+
+#: inc/includes/class-options-interface.php:118
+#: inc/includes/class-options-interface.php:123
+#: inc/includes/class-options-interface.php:138
+#: inc/includes/class-options-interface.php:143
+#: inc/includes/class-options-interface.php:177
+#: inc/includes/class-options-interface.php:206
+#: inc/includes/class-options-interface.php:242
+#: inc/includes/class-options-interface.php:253
+#: inc/includes/class-options-interface.php:278
+#: inc/includes/class-options-interface.php:299
+#: inc/includes/class-options-interface.php:306
+#: inc/includes/class-options-interface.php:315
+#: inc/includes/class-options-interface.php:324
+#: inc/includes/class-options-interface.php:333
+#: inc/includes/class-options-interface.php:348
+msgid "["
+msgstr ""
+
+#: inc/includes/class-options-interface.php:169
+#: inc/includes/class-options-interface.php:171
+msgid "_"
+msgstr ""
+
+#: inc/includes/class-options-interface.php:242
+msgid "_size"
+msgstr ""
+
+#: inc/includes/class-options-interface.php:253
+msgid "_face"
+msgstr ""
+
+#: inc/includes/class-options-interface.php:278
+#: inc/includes/class-options-interface.php:299
+msgid "_color"
+msgstr ""
+
+#: inc/includes/class-options-interface.php:315
+msgid "_repeat"
+msgstr ""
+
+#: inc/includes/class-options-interface.php:324
+msgid "_position"
+msgstr ""
+
+#: inc/includes/class-options-interface.php:333
+msgid "_attachment"
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:55
+msgid "No file chosen"
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:58
+#: inc/includes/class-options-media-uploader.php:111
+msgid "Upload"
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:60
+#: inc/includes/class-options-media-uploader.php:112
+msgid "Remove"
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:63
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:87
+msgid "View File"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:311
+msgid "No Repeat"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:312
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:313
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:314
+msgid "Repeat All"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:326
+msgid "Top Left"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:327
+msgid "Top Center"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:328
+msgid "Top Right"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:329
+msgid "Middle Left"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:330
+msgid "Middle Center"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:331
+msgid "Middle Right"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:332
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:333
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:334
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:346
+msgid "Scroll Normally"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:347
+msgid "Fixed in Place"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:419
+msgid "Normal"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:420
+msgid "Italic"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:421
+msgid "Bold"
+msgstr ""
+
+#: inc/includes/class-options-sanitize.php:422
+msgid "Bold Italic"
+msgstr ""
+
+#: inc/template-tags.php:33
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:43
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:47
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:70
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:93
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:184
+#, php-format
+msgid ""
+"<span class=\"posted-on\">Published %1$s</span><span class=\"byline\"> by "
+"%2$s</span>"
+msgstr ""
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: options.php:913
+msgid "Basic Settings"
+msgstr ""
+
+#: options.php:917
+msgid "Logo"
+msgstr ""
+
+#: options.php:918
+msgid "Upload your main logo here"
+msgstr ""
+
+#: options.php:925
+msgid "Change your custom logo height"
+msgstr ""
+
+#: options.php:931
+msgid "Site title & Description"
+msgstr ""
+
+#: options.php:932
+msgid "Check To hide site title and description"
+msgstr ""
+
+#: options.php:938
+msgid "Layout Option"
+msgstr ""
+
+#: options.php:939
+msgid "Check To View Box Layout "
+msgstr ""
+
+#: options.php:945
+msgid "Sticky Header"
+msgstr ""
+
+#: options.php:946
+msgid "Check this to enable sticky header on scroll"
+msgstr ""
+
+#: options.php:952
+msgid "Disable Animation"
+msgstr ""
+
+#: options.php:953
+msgid "Check this to disable animation on scroll"
+msgstr ""
+
+#: options.php:959
+msgid "Custom CSS"
+msgstr ""
+
+#: options.php:960
+msgid ""
+"Some Custom Styling for your site. Place any css codes here instead of the "
+"style.css file."
+msgstr ""
+
+#: options.php:966
+msgid "Header Office hours"
+msgstr ""
+
+#: options.php:967
+msgid "manage your office hours"
+msgstr ""
+
+#: options.php:973
+msgid "Header Top Social Icons"
+msgstr ""
+
+#: options.php:974
+msgid "Edit select social icons for header top"
+msgstr ""
+
+#: options.php:980
+msgid "Disable Header top Strip"
+msgstr ""
+
+#: options.php:981
+msgid "Check to disable header top office hours and social icons"
+msgstr ""
+
+#: options.php:987
+msgid "Header Top Info"
+msgstr ""
+
+#: options.php:988
+msgid ""
+"Edit header info from here. NOTE: Icon name should be in lowercase without "
+"space.(exa.phone) More social icons can be found at: http://fortawesome."
+"github.io/Font-Awesome/icons/"
+msgstr ""
+
+#: options.php:997
+msgid "Disable Header Contact info"
+msgstr ""
+
+#: options.php:998
+msgid "Check to disable header contact info(phone,email,address)"
+msgstr ""
+
+#: options.php:1005
+msgid "Font Faces"
+msgstr ""
+
+#: options.php:1006
+msgid "Select font for the body text"
+msgstr ""
+
+#: options.php:1013
+msgid "Select font for the textual logo"
+msgstr ""
+
+#: options.php:1020
+msgid "Select font for the navigation text"
+msgstr ""
+
+#: options.php:1027
+msgid "Select font family for all heading tag."
+msgstr ""
+
+#: options.php:1034
+msgid "Select font for Section title"
+msgstr ""
+
+#: options.php:1041
+msgid "Select font for Slide title"
+msgstr ""
+
+#: options.php:1048
+msgid "Select font for Slide Description"
+msgstr ""
+
+#: options.php:1057
+msgid "Font Sizes"
+msgstr ""
+
+#: options.php:1058
+msgid "Select font size for body text"
+msgstr ""
+
+#: options.php:1065
+msgid "Select font size for textual logo"
+msgstr ""
+
+#: options.php:1072
+msgid "Select font size for navigation"
+msgstr ""
+
+#: options.php:1079
+msgid "Select font size for section title"
+msgstr ""
+
+#: options.php:1086
+msgid "Select font size for footer title"
+msgstr ""
+
+#: options.php:1093
+msgid "Select h1 font size"
+msgstr ""
+
+#: options.php:1100
+msgid "Select h2 font size"
+msgstr ""
+
+#: options.php:1107
+msgid "Select h3 font size"
+msgstr ""
+
+#: options.php:1114
+msgid "Select h4 font size"
+msgstr ""
+
+#: options.php:1121
+msgid "Select h5 font size"
+msgstr ""
+
+#: options.php:1128
+msgid "Select h6 font size"
+msgstr ""
+
+#: options.php:1138
+msgid "Site Colors Scheme"
+msgstr ""
+
+#: options.php:1139
+msgid "Change the color scheme of hole site"
+msgstr ""
+
+#: options.php:1145
+msgid "Font Colors"
+msgstr ""
+
+#: options.php:1146
+msgid "Select font color for the body text"
+msgstr ""
+
+#: options.php:1152
+msgid "Select font color for textual logo"
+msgstr ""
+
+#: options.php:1158
+msgid "Select font color for header top phone and email strip"
+msgstr ""
+
+#: options.php:1164
+msgid "Select font color for logo tagline"
+msgstr ""
+
+#: options.php:1170
+msgid "Select font color for header social icons"
+msgstr ""
+
+#: options.php:1176
+msgid "Select font color for section title"
+msgstr ""
+
+#: options.php:1183
+msgid "Select font color for navigation"
+msgstr ""
+
+#: options.php:1189
+msgid "Select font hover/active color for navigation"
+msgstr ""
+
+#: options.php:1195
+msgid "Select font color for homepage top four boxes"
+msgstr ""
+
+#: options.php:1201
+msgid "Select font color for homepage top four boxes title"
+msgstr ""
+
+#: options.php:1207
+msgid "Select font color for homepage top four boxes read more text"
+msgstr ""
+
+#: options.php:1213
+msgid "Select font hover color for homepage top four boxes read more text"
+msgstr ""
+
+#: options.php:1219
+msgid "Select font color for widget title"
+msgstr ""
+
+#: options.php:1225
+msgid "Select font color for footer title"
+msgstr ""
+
+#: options.php:1231
+msgid "Select font color for footer"
+msgstr ""
+
+#: options.php:1237
+msgid "Select font color for footer left text (copyright)"
+msgstr ""
+
+#: options.php:1243
+msgid "Select font color for footer right text (design by)"
+msgstr ""
+
+#: options.php:1249
+msgid "Select font hover color for links / anchor tags"
+msgstr ""
+
+#: options.php:1255
+msgid "Select font color for sidebar li a"
+msgstr ""
+
+#: options.php:1261
+msgid "Select font hover color for footer copyright links"
+msgstr ""
+
+#: options.php:1267
+msgid "Select h1 font color"
+msgstr ""
+
+#: options.php:1273
+msgid "Select h2 font color"
+msgstr ""
+
+#: options.php:1279
+msgid "Select h3 font color"
+msgstr ""
+
+#: options.php:1285
+msgid "Select h4 font color"
+msgstr ""
+
+#: options.php:1291
+msgid "Select h5 font color"
+msgstr ""
+
+#: options.php:1297
+msgid "Select h6 font color"
+msgstr ""
+
+#: options.php:1303
+msgid "Select font color for footer social icons"
+msgstr ""
+
+#: options.php:1309
+msgid "Select font color for gallery filter "
+msgstr ""
+
+#: options.php:1315
+msgid "Select font hover color for gallery filter "
+msgstr ""
+
+#: options.php:1321
+msgid "Select font color for photogallery title "
+msgstr ""
+
+#: options.php:1327
+msgid "Select font color for latest post title"
+msgstr ""
+
+#: options.php:1333
+msgid "Select font color for client testimonilas title"
+msgstr ""
+
+#: options.php:1339
+msgid "Select font color for client testimonilas description"
+msgstr ""
+
+#: options.php:1345
+msgid "Select font color for sidebar widget box"
+msgstr ""
+
+#: options.php:1351
+msgid "Select font color for footer recent posts"
+msgstr ""
+
+#: options.php:1357
+msgid "Select font color for toggle menu on responsive"
+msgstr ""
+
+#: options.php:1363
+msgid "Select font color for section title for testimonials section"
+msgstr ""
+
+#: options.php:1369
+msgid "Select font awesome icon color for our theme features section"
+msgstr ""
+
+#: options.php:1375
+msgid "Select font color for team member title"
+msgstr ""
+
+#: options.php:1381
+msgid "Select font color for team member designation"
+msgstr ""
+
+#: options.php:1389
+msgid "Background Colors"
+msgstr ""
+
+#: options.php:1390
+msgid "Select background color for header"
+msgstr ""
+
+#: options.php:1396
+msgid "Select background color for header top phone and email strip"
+msgstr ""
+
+#: options.php:1402
+msgid "Select background color for footer"
+msgstr ""
+
+#: options.php:1408
+msgid "Select background color for copyright section"
+msgstr ""
+
+#: options.php:1414
+msgid "Select background color for fhotogallery filter"
+msgstr ""
+
+#: options.php:1420
+msgid "Select background color for client testimonials pager dots"
+msgstr ""
+
+#: options.php:1426
+msgid "Select background color for sidebar widget box"
+msgstr ""
+
+#: options.php:1432
+msgid "Select background color for page boxes read more button"
+msgstr ""
+
+#: options.php:1439
+msgid "Border Colors"
+msgstr ""
+
+#: options.php:1440
+msgid "Select border color for sidebar li a"
+msgstr ""
+
+#: options.php:1446
+msgid "Select border color for footer title"
+msgstr ""
+
+#: options.php:1452
+msgid "Select border color for slider title"
+msgstr ""
+
+#: options.php:1458
+msgid "Select border color for top navigation dropdown li"
+msgstr ""
+
+#: options.php:1464
+msgid "Select border color for gallery filter"
+msgstr ""
+
+#: options.php:1470
+msgid "Select border color for section title underline"
+msgstr ""
+
+#: options.php:1478
+msgid "Button Colors"
+msgstr ""
+
+#: options.php:1479
+msgid "Select background hover color for default button"
+msgstr ""
+
+#: options.php:1485
+msgid "Select font color default button"
+msgstr ""
+
+#: options.php:1491
+msgid "Select font hover color for default button"
+msgstr ""
+
+#: options.php:1497
+msgid "Select background color for shop now button on slider"
+msgstr ""
+
+#: options.php:1505
+msgid "Slider Caption Colors"
+msgstr ""
+
+#: options.php:1506
+msgid "Select font color for slider title"
+msgstr ""
+
+#: options.php:1512
+msgid "Select font color for slider description"
+msgstr ""
+
+#: options.php:1519
+msgid "Select font size for slider title"
+msgstr ""
+
+#: options.php:1526
+msgid "Select font size for slider description"
+msgstr ""
+
+#: options.php:1534
+msgid "Slider controls Colors"
+msgstr ""
+
+#: options.php:1535
+msgid "Select background color for slider pager"
+msgstr ""
+
+#: options.php:1541
+msgid "Select background color for slider navigation arrows"
+msgstr ""
+
+#: options.php:1547
+msgid "Select background opacity color for header slider navigation arrows"
+msgstr ""
+
+#: options.php:1554
+msgid "Select Border color for slider pager"
+msgstr ""
+
+#: options.php:1560
+msgid "Excerpt Lenth"
+msgstr ""
+
+#: options.php:1561
+msgid "Select excerpt length for latest news boxes section"
+msgstr ""
+
+#: options.php:1567
+msgid "Select excerpt length for testimonials section"
+msgstr ""
+
+#: options.php:1573
+msgid "Select excerpt length for blog post"
+msgstr ""
+
+#: options.php:1579
+msgid "Select excerpt length for footer latest posts"
+msgstr ""
+
+#: options.php:1585
+msgid "Select excerpt length for home page team member box"
+msgstr ""
+
+#: options.php:1591
+msgid "Read More Custom Text"
+msgstr ""
+
+#: options.php:1592
+msgid "Change read more button text for blog posts "
+msgstr ""
+
+#: options.php:1598
+msgid "Change read more button text for latest blog post section"
+msgstr ""
+
+#: options.php:1604
+msgid "Change Show All Button text for photo gallery section"
+msgstr ""
+
+#: options.php:1610
+msgid "Change menu word on responsive view"
+msgstr ""
+
+#: options.php:1616
+msgid "Change Categories word on blog area"
+msgstr ""
+
+#: options.php:1622
+msgid "Blog Single Layout"
+msgstr ""
+
+#: options.php:1623
+msgid "Select layout. eg:Boxed, Wide"
+msgstr ""
+
+#: options.php:1630
+msgid "Woocommerce Page Layout"
+msgstr ""
+
+#: options.php:1631
+msgid "Select layout. eg:right-sidebar, left-sidebar, full-width"
+msgstr ""
+
+#: options.php:1638
+msgid "Testimonials Rotating Speed"
+msgstr ""
+
+#: options.php:1639
+msgid "manage testimonials rotating speed."
+msgstr ""
+
+#: options.php:1645
+msgid "True/False Auto play Testimonials."
+msgstr ""
+
+#: options.php:1654
+msgid "Sections"
+msgstr ""
+
+#: options.php:1660
+msgid "Top Four Box Services Section"
+msgstr ""
+
+#: options.php:1661
+msgid "first Services box for frontpage section"
+msgstr ""
+
+#: options.php:1668
+msgid "upload image for first box."
+msgstr ""
+
+#: options.php:1675
+msgid "Second Services box for frontpage section"
+msgstr ""
+
+#: options.php:1682
+msgid "upload image for second box."
+msgstr ""
+
+#: options.php:1689
+msgid "Third Services box for frontpage section"
+msgstr ""
+
+#: options.php:1696
+msgid "upload image for third box."
+msgstr ""
+
+#: options.php:1703
+msgid "Fourth Services box for frontpage section"
+msgstr ""
+
+#: options.php:1710
+msgid "upload image for fourth box."
+msgstr ""
+
+#: options.php:1717
+msgid "Fifth Services box for frontpage section"
+msgstr ""
+
+#: options.php:1724
+msgid "upload image for fifth box."
+msgstr ""
+
+#: options.php:1731
+msgid "Six Services box for frontpage section"
+msgstr ""
+
+#: options.php:1738
+msgid "upload image for six box."
+msgstr ""
+
+#: options.php:1745
+msgid "Change read more button text for  top services four boxes "
+msgstr ""
+
+#: options.php:1751
+msgid "Select excerpt length for services four boxes section"
+msgstr ""
+
+#: options.php:1757
+msgid "Check to hide above our services four column section"
+msgstr ""
+
+#: options.php:1764
+msgid "Number of Sections"
+msgstr ""
+
+#: options.php:1765
+msgid "Select number of sections"
+msgstr ""
+
+#: options.php:1775
+msgid "<h3>Section "
+msgstr ""
+
+#: options.php:1780
+msgid "Section Title"
+msgstr ""
+
+#: options.php:1786
+msgid "Section ID"
+msgstr ""
+
+#: options.php:1787
+msgid ""
+"Enter your section ID here. SECTION ID MUST BE IN SMALL LETTERS ONLY AND DO "
+"NOT ADD SPACE OR SYMBOL."
+msgstr ""
+
+#: options.php:1793
+msgid "Section Background Color"
+msgstr ""
+
+#: options.php:1794
+msgid "Select background color for section"
+msgstr ""
+
+#: options.php:1800
+msgid "Background Image"
+msgstr ""
+
+#: options.php:1807
+msgid "Section CSS Class"
+msgstr ""
+
+#: options.php:1808
+msgid "Set class for this section."
+msgstr ""
+
+#: options.php:1814
+msgid "Hide Section"
+msgstr ""
+
+#: options.php:1815
+msgid "Check to hide this section"
+msgstr ""
+
+#: options.php:1821
+msgid "Section Content"
+msgstr ""
+
+#: options.php:1830
+msgid "Homepage Slider"
+msgstr ""
+
+#: options.php:1834
+msgid "Inner Page Banner"
+msgstr ""
+
+#: options.php:1835
+msgid "Upload inner page banner for site"
+msgstr ""
+
+#: options.php:1843
+msgid "Custom Slider Shortcode Area For Home Page"
+msgstr ""
+
+#: options.php:1844
+msgid "Enter here your slider shortcode without php tag"
+msgstr ""
+
+#: options.php:1850
+msgid "Slider Effects and Timing"
+msgstr ""
+
+#: options.php:1851
+msgid "Select slider effect."
+msgstr ""
+
+#: options.php:1858
+msgid "Animation speed should be multiple of 100."
+msgstr ""
+
+#: options.php:1864
+msgid "Add slide pause time."
+msgstr ""
+
+#: options.php:1870
+msgid "Slide Controllers"
+msgstr ""
+
+#: options.php:1871
+msgid "Hide/Show Direction Naviagtion of slider."
+msgstr ""
+
+#: options.php:1878
+msgid "Hide/Show pager of slider."
+msgstr ""
+
+#: options.php:1885
+msgid "Pause Slide on Hover."
+msgstr ""
+
+#: options.php:1892
+msgid "Buy This Theme Button on Slider"
+msgstr ""
+
+#: options.php:1898
+msgid "Slider Image 1"
+msgstr ""
+
+#: options.php:1899
+msgid "First Slide"
+msgstr ""
+
+#: options.php:1906
+msgid "Title 1"
+msgstr ""
+
+#: options.php:1912 options.php:1945 options.php:1977 options.php:2009
+#: options.php:2041 options.php:2073 options.php:2105 options.php:2137
+#: options.php:2169 options.php:2201
+msgid "Description or Tagline"
+msgstr ""
+
+#: options.php:1918 options.php:1951 options.php:1983 options.php:2015
+#: options.php:2047 options.php:2079 options.php:2111 options.php:2143
+#: options.php:2175 options.php:2207
+msgid "Read More Button Text"
+msgstr ""
+
+#: options.php:1924 options.php:1957 options.php:1989 options.php:2021
+#: options.php:2053 options.php:2085 options.php:2117 options.php:2149
+#: options.php:2181 options.php:2213
+msgid "Slide Url for Read More Button"
+msgstr ""
+
+#: options.php:1931
+msgid "Slider Image 2"
+msgstr ""
+
+#: options.php:1932
+msgid "Second Slide"
+msgstr ""
+
+#: options.php:1939
+msgid "Title 2"
+msgstr ""
+
+#: options.php:1963
+msgid "Slider Image 3"
+msgstr ""
+
+#: options.php:1964 options.php:1996
+msgid "Third Slide"
+msgstr ""
+
+#: options.php:1971
+msgid "Title 3"
+msgstr ""
+
+#: options.php:1995
+msgid "Slider Image 4"
+msgstr ""
+
+#: options.php:2003
+msgid "Title 4"
+msgstr ""
+
+#: options.php:2027
+msgid "Slider Image 5"
+msgstr ""
+
+#: options.php:2028
+msgid "Fifth Slide"
+msgstr ""
+
+#: options.php:2035
+msgid "Title 5"
+msgstr ""
+
+#: options.php:2059
+msgid "Slider Image 6"
+msgstr ""
+
+#: options.php:2060
+msgid "Sixth Slide"
+msgstr ""
+
+#: options.php:2067
+msgid "Title 6"
+msgstr ""
+
+#: options.php:2091
+msgid "Slider Image 7"
+msgstr ""
+
+#: options.php:2092
+msgid "Seventh Slide"
+msgstr ""
+
+#: options.php:2099
+msgid "Title 7"
+msgstr ""
+
+#: options.php:2123
+msgid "Slider Image 8"
+msgstr ""
+
+#: options.php:2124
+msgid "Eighth Slide"
+msgstr ""
+
+#: options.php:2131
+msgid "Title 8"
+msgstr ""
+
+#: options.php:2155
+msgid "Slider Image 9"
+msgstr ""
+
+#: options.php:2156
+msgid "Ninth Slide"
+msgstr ""
+
+#: options.php:2163
+msgid "Title 9"
+msgstr ""
+
+#: options.php:2187
+msgid "Slider Image 10"
+msgstr ""
+
+#: options.php:2188
+msgid "Tenth Slide"
+msgstr ""
+
+#: options.php:2195
+msgid "Title 10"
+msgstr ""
+
+#: options.php:2221
+msgid "Footer"
+msgstr ""
+
+#: options.php:2225
+msgid "Footer Layout"
+msgstr ""
+
+#: options.php:2226
+msgid "footer Select layout. eg:Boxed, 1, 2, 3 and 4"
+msgstr ""
+
+#: options.php:2233
+msgid "Footer About Us"
+msgstr ""
+
+#: options.php:2234
+msgid "abput us text title for footer"
+msgstr ""
+
+#: options.php:2240
+msgid "About Us Description"
+msgstr ""
+
+#: options.php:2241
+msgid "abput us text description for footer"
+msgstr ""
+
+#: options.php:2247
+msgid "Latest Posts Title"
+msgstr ""
+
+#: options.php:2248
+msgid "Footer latest posts title."
+msgstr ""
+
+#: options.php:2254
+msgid "Footer Menu Title"
+msgstr ""
+
+#: options.php:2255
+msgid "footer menu title."
+msgstr ""
+
+#: options.php:2261
+msgid "Footer Contact Info"
+msgstr ""
+
+#: options.php:2262
+msgid "Add footer contact info title here"
+msgstr ""
+
+#: options.php:2268
+msgid "Add company address here."
+msgstr ""
+
+#: options.php:2274
+msgid "Add phone number here."
+msgstr ""
+
+#: options.php:2280
+msgid "Add fax number here."
+msgstr ""
+
+#: options.php:2286
+msgid "Add email address here."
+msgstr ""
+
+#: options.php:2292
+msgid "Footer Social Icons"
+msgstr ""
+
+#: options.php:2293
+msgid "social icons for footer"
+msgstr ""
+
+#: options.php:2305
+msgid "Footer Copyright"
+msgstr ""
+
+#: options.php:2306
+msgid "Copyright Text for your site."
+msgstr ""
+
+#: options.php:2312
+msgid "Footre Text Link"
+msgstr ""
+
+#: options.php:2318
+msgid "Footer Back to Top Button"
+msgstr ""
+
+#: options.php:2325
+msgid "Short Codes"
+msgstr ""
+
+#: options.php:2330
+msgid "[photogallery filter=\"true\" show=\"8\"]"
+msgstr ""
+
+#: options.php:2334
+msgid "Testimonials Rotator"
+msgstr ""
+
+#: options.php:2335
+msgid "[testimonials]"
+msgstr ""
+
+#: options.php:2339
+msgid "All Testimonials Listing"
+msgstr ""
+
+#: options.php:2340
+msgid "[testimonials-listing show=\"10\"]"
+msgstr ""
+
+#: options.php:2344
+msgid "Sidebar Testimonials Rotator"
+msgstr ""
+
+#: options.php:2345
+msgid "[sidebar-testimonials]"
+msgstr ""
+
+#: options.php:2349
+msgid "Our Client"
+msgstr ""
+
+#: options.php:2350
+msgid ""
+"[client_lists]<br />\n"
+"\t\t[client title=\"Enter here title\" image=\"Enter here client image logo "
+"url with https:\" link=\"#\"]<br />\n"
+"\t\t[client title=\"Enter here title\" image=\"Enter here client image logo "
+"url with https:\" link=\"#\"]<br />\n"
+"\t\t[client title=\"Enter here title\" image=\"Enter here client image logo "
+"url with https:\" link=\"#\"]<br />\n"
+"\t\t[client title=\"Enter here title\" image=\"Enter here client image logo "
+"url with https:\" link=\"#\"]<br />\n"
+"\t\t[client title=\"Enter here title\" image=\"Enter here client image logo "
+"url with https:\" link=\"#\"]<br />\n"
+"\t\t[/client_lists]"
+msgstr ""
+
+#: options.php:2360
+msgid "Contact Form"
+msgstr ""
+
+#: options.php:2361
+msgid "[contactform to_email=\"test@example.com\" title=\"Contact Form\"] \n"
+msgstr ""
+
+#: options.php:2367
+msgid "[our-team show=\"4\"]"
+msgstr ""
+
+#: options.php:2371
+msgid "Latest News"
+msgstr ""
+
+#: options.php:2372
+msgid ""
+"[latest-news showposts=\"4\" comment=\"show\" date=\"show\" author=\"show\"]"
+msgstr ""
+
+#: options.php:2376
+msgid "Our Skills"
+msgstr ""
+
+#: options.php:2377
+msgid ""
+"[skill title=\"Coding\" percent=\"90\" bgcolor=\"#65676a\"][skill title="
+"\"Design\" percent=\"70\" bgcolor=\"#65676a\"][skill title=\"Building\" "
+"percent=\"55\" bgcolor=\"#65676a\"][skill title=\"SEO\" percent=\"100\" "
+"bgcolor=\"#65676a\"]"
+msgstr ""
+
+#: options.php:2381
+msgid "Custom Button"
+msgstr ""
+
+#: options.php:2382
+msgid "[button align=\"center\" name=\"View Gallery\" link=\"#\" target=\"\"]"
+msgstr ""
+
+#: options.php:2386
+msgid "Search Form"
+msgstr ""
+
+#: options.php:2387
+msgid "[searchform]"
+msgstr ""
+
+#: options.php:2391
+msgid ""
+"Social Icons ( Note: More social icons can be found at: http://fortawesome."
+"github.io/Font-Awesome/icons/)"
+msgstr ""
+
+#: options.php:2392
+msgid ""
+"[social_area]<br />\n"
+"\t\t\t[social icon=\"facebook\" link=\"#\"]<br />\n"
+"\t\t\t[social icon=\"twitter\" link=\"#\"]<br />\n"
+"\t\t\t[social icon=\"linkedin\" link=\"#\"]<br />\n"
+"\t\t\t[social icon=\"google-plus\" link=\"#\"]<br />\n"
+"\t\t[/social_area]"
+msgstr ""
+
+#: options.php:2401
+msgid "2 Column Content"
+msgstr ""
+
+#: options.php:2402
+msgid ""
+"<pre>\n"
+"[column_content type=\"one_half\"]\n"
+"\tColumn 1 Content goes here...\n"
+"[/column_content]\n"
+"\n"
+"[column_content type=\"one_half_last\"]\n"
+"\tColumn 2 Content goes here...\n"
+"[/column_content]\n"
+"</pre>"
+msgstr ""
+
+#: options.php:2414
+msgid "3 Column Content"
+msgstr ""
+
+#: options.php:2415
+msgid ""
+"<pre>\n"
+"[column_content type=\"one_third\"]\n"
+"\tColumn 1 Content goes here...\n"
+"[/column_content]\n"
+"\n"
+"[column_content type=\"one_third\"]\n"
+"\tColumn 2 Content goes here...\n"
+"[/column_content]\n"
+"\n"
+"[column_content type=\"one_third_last\"]\n"
+"\tColumn 3 Content goes here...\n"
+"[/column_content]\n"
+"</pre>"
+msgstr ""
+
+#: options.php:2431
+msgid "4 Column Content"
+msgstr ""
+
+#: options.php:2432
+msgid ""
+"<pre>\n"
+"[column_content type=\"one_fourth\"]\n"
+"\tColumn 1 Content goes here...\n"
+"[/column_content]\n"
+"\n"
+"[column_content type=\"one_fourth\"]\n"
+"\tColumn 2 Content goes here...\n"
+"[/column_content]\n"
+"\n"
+"[column_content type=\"one_fourth\"]\n"
+"\tColumn 3 Content goes here...\n"
+"[/column_content]\n"
+"\n"
+"[column_content type=\"one_fourth_last\"]\n"
+"\tColumn 4 Content goes here...\n"
+"[/column_content]\n"
+"</pre>"
+msgstr ""
+
+#: options.php:2452
+msgid "5 Column Content"
+msgstr ""
+
+#: options.php:2453
+msgid ""
+"<pre>\n"
+"[column_content type=\"one_fifth\"]\n"
+"\tColumn 1 Content goes here...\n"
+"[/column_content]\n"
+"\n"
+"[column_content type=\"one_fifth\"]\n"
+"\tColumn 2 Content goes here...\n"
+"[/column_content]\n"
+"\n"
+"[column_content type=\"one_fifth\"]\n"
+"\tColumn 3 Content goes here...\n"
+"[/column_content]\n"
+"\n"
+"[column_content type=\"one_fifth\"]\n"
+"\tColumn 4 Content goes here...\n"
+"[/column_content]\n"
+"\n"
+"[column_content type=\"one_fifth_last\"]\n"
+"\tColumn 5 Content goes here...\n"
+"[/column_content]\n"
+"</pre>"
+msgstr ""
+
+#: options.php:2477
+msgid "Tabs"
+msgstr ""
+
+#: options.php:2478
+msgid ""
+"<pre>\n"
+"[tabs]\n"
+"\t[tab title=\"TAB TITLE 1\"]\n"
+"\t\tTAB CONTENT 1\n"
+"\t[/tab]\n"
+"\t[tab title=\"TAB TITLE 2\"]\n"
+"\t\tTAB CONTENT 2\n"
+"\t[/tab]\n"
+"\t[tab title=\"TAB TITLE 3\"]\n"
+"\t\tTAB CONTENT 3\n"
+"\t[/tab]\n"
+"[/tabs]\n"
+"</pre>"
+msgstr ""
+
+#: options.php:2495
+msgid "Toggle Content"
+msgstr ""
+
+#: options.php:2496
+msgid ""
+"<pre>\n"
+"[toggle_content title=\"Toggle Title 1\"]\n"
+"\tToggle content 1...\n"
+"[/toggle_content]\n"
+"[toggle_content title=\"Toggle Title 2\"]\n"
+"\tToggle content 2...\n"
+"[/toggle_content]\n"
+"[toggle_content title=\"Toggle Title 3\"]\n"
+"\tToggle content 3...\n"
+"[/toggle_content]\n"
+"</pre>"
+msgstr ""
+
+#: options.php:2511
+msgid "Accordion Content"
+msgstr ""
+
+#: options.php:2512
+msgid ""
+"<pre>\n"
+"[accordion]\n"
+"\t[accordion_content title=\"ACCORDION TITLE 1\"]\n"
+"\t\tACCORDION CONTENT 1\n"
+"\t[/accordion_content]\n"
+"\t[accordion_content title=\"ACCORDION TITLE 2\"]\n"
+"\t\tACCORDION CONTENT 2\n"
+"\t[/accordion_content]\n"
+"\t[accordion_content title=\"ACCORDION TITLE 3\"]\n"
+"\t\tACCORDION CONTENT 3\n"
+"\t[/accordion_content]\n"
+"[/accordion]\n"
+"</pre>"
+msgstr ""
+
+#: options.php:2528
+msgid "Clear"
+msgstr ""
+
+#: options.php:2529
+msgid ""
+"<pre>\n"
+"[clear]\n"
+"</pre>"
+msgstr ""
+
+#: options.php:2535
+msgid "HR / Horizontal separation line"
+msgstr ""
+
+#: options.php:2536
+msgid ""
+"<pre>\n"
+"[hr] or &lt;hr&gt;\n"
+"</pre>"
+msgstr ""
+
+#: options.php:2542
+msgid "Subtitle"
+msgstr ""
+
+#: options.php:2543
+msgid ""
+"[subtitle color=\"#111111\" size=\"15px\" margin=\"0 0 50px 0\" align=\"\" "
+"description=\"short descriptio here\"]"
+msgstr ""
+
+#: options.php:2547
+msgid "Scroll to Top"
+msgstr ""
+
+#: options.php:2548
+msgid "[back-to-top] \n"
+msgstr ""
+
+#: search.php:15
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: section-pagecolumn.php:8
+msgid "Market Research"
+msgstr ""
+
+#: section-pagecolumn.php:8
+msgid "24/7 Supports"
+msgstr ""
+
+#: section-pagecolumn.php:8
+msgid "Digital Payments "
+msgstr ""
+
+#: section-pagecolumn.php:8
+msgid "Expert Opinion"
+msgstr ""
+
+#: section-pagecolumn.php:38
+msgid ""
+"Phasellus nec metus scelerisque, feugiat est quis, vestibulum ante. Proin id "
+"vehicula enim. Pellentesque habitant..."
+msgstr ""
+
+#: sidebar-blog.php:11 sidebar.php:11
+msgid "Category"
+msgstr ""
