@@ -1,3 +1,9 @@
+
+HBC Münsingen Theme for https://hbcmuensingen.ch page.
+Based on Milestonez PRO Theme. See details below.
+
+
+
 /*-----------------------------------------------------------------------------------*/
 /* Responsive Simple WordPress Theme */
 /*-----------------------------------------------------------------------------------*/
