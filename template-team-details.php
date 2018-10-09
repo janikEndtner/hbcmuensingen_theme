@@ -40,7 +40,7 @@ get_header(); ?>
                         . '</a></td></tr>';
                         if ($status == 'played') {
                             $str = $str . '<tr><td>Halbzeitresultat:</td><td>' . $details->teamAScoreHT . ':' . $details->teamBScoreHT . '</td></tr>'
-                            . '<tr><td>Schlussresultat:</td><td>' . $details->teamAScoreFT . ':' . $details->teamAScoreFT . '</td></tr>'
+                            . '<tr><td>Schlussresultat:</td><td>' . $details->teamAScoreFT . ':' . $details->teamBScoreFT . '</td></tr>'
                             . '<tr><td>Zuschauer:</td><td>' . $details->spectators . '</td></tr>';
                         };
                         $str = $str . '</thead></table>';
