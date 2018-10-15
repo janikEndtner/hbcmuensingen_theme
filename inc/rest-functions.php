@@ -162,6 +162,10 @@ function get_games($request) {
         $str = $str . "</div>";
     }
 
+    if ($status == 'planned' && sizeof($response) > 0) {
+        $str = $str . '</div><p><a href="/meisterschaft/kalender-exportieren">Kalender exportieren oder zu mobilen Gerät hinzufügen</a></p>';
+    }
+
     if (sizeof($response) == 0) {
         $str = $str . '<p>Bisher keine Resultate</p>';
     }
