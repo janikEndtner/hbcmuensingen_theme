@@ -197,7 +197,6 @@ function milestonez_pro_scripts() {
 	wp_enqueue_script( 'moment', get_template_directory_uri().'/js/moment.min.js', array('jquery') );
 	wp_enqueue_script( 'file-saver', get_template_directory_uri().'/js/FileSaver.min.js', array('jquery') );
 	wp_enqueue_script( 'ical-js', get_template_directory_uri().'/js/ical-js.js', array('jquery') );
-	wp_enqueue_script( 'download-as-ical', get_template_directory_uri().'/js/downloadAsIcal.js', array('jquery') );
 
 	// mixitup script
 	wp_enqueue_style( 'milestonez-pro-mixitup-style', get_template_directory_uri().'/mixitup/style-mixitup.css' );

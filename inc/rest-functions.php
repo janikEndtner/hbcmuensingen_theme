@@ -162,10 +162,6 @@ function get_games($request) {
         $str = $str . "</div>";
     }
 
-    if ($status == 'planned' && sizeof($response) > 0) {
-        $str = $str . '</div><p class="export_ical"><a href="javascript:void(0)" onclick="downloadTableAsIcal(document.getElementById(\'' . $id . '\'))">Kalender exportieren</a></p>';
-    }
-
     if (sizeof($response) == 0) {
         $str = $str . '<p>Bisher keine Resultate</p>';
     }
