@@ -1145,7 +1145,7 @@ add_shortcode('ranking', 'ranking');
 
 function show_all_teams()
 {
-    $url = "http://api.handball.ch/rest/v1/clubs/140336/teams";
+    $url = "https://api.handball.ch/rest/v1/clubs/140336/teams";
 
     $curl = curl_init();
 
