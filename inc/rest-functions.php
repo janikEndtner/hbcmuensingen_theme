@@ -16,9 +16,9 @@ function getDataFromApi($teamid, $status, $limit)
     }
 
     if (strlen($teamid) == 0 || $teamid == 'all') {
-        $url = "http://api.handball.ch/rest/v1/clubs/140336/games?status=$status&limit=$limit&order=$order";
+        $url = "https://api.handball.ch/rest/v1/clubs/140336/games?status=$status&limit=$limit&order=$order";
     } else {
-        $url = "http://api.handball.ch/rest/v1/clubs/140336/teams/$teamid/games?status=$status&limit=$limit&order=$order";
+        $url = "https://api.handball.ch/rest/v1/clubs/140336/teams/$teamid/games?status=$status&limit=$limit&order=$order";
     }
 
     $curl = curl_init();
@@ -177,7 +177,7 @@ function get_ranking($request) {
 
     $teamid = $request->get_params()['teamid'];
 
-    $url = "http://api.handball.ch/rest/v1/teams/$teamid/group";
+    $url = "https://api.handball.ch/rest/v1/teams/$teamid/group";
 
     $curl = curl_init();
 

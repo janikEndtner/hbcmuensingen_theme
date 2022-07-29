@@ -30,6 +30,7 @@
 </head>
 
 <body id="top" <?php body_class(); ?>>
+<div id="wptime-plugin-preloader"></div>
 <div class="sitewrapper <?php if( of_get_option('boxlayout', true) != '' ) { ?>boxlayout<?php } ?>">
 <?php if( of_get_option('headtopstrip', true) == '' ) { ?>
 <div class="header-top">
