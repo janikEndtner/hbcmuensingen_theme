@@ -6,48 +6,24 @@
  * Time: 14:41
  */
 
-// no shortcode. get results and games from api
-function getDataFromApi($teamid, $status, $limit)
-{
+function getGamesFromDatabase($teamid, $status, $limit) {
     if ($status == 'played') {
         $order = 'desc';
+        $isNull = 'not null';
     } else {
         $order = 'asc';
+        $isNull = 'null';
     }
 
-    if (strlen($teamid) == 0 || $teamid == 'all') {
-        $url = "https://api.handball.ch/rest/v1/clubs/140336/games?status=$status&limit=$limit&order=$order";
-    } else {
-        $url = "https://api.handball.ch/rest/v1/clubs/140336/teams/$teamid/games?status=$status&limit=$limit&order=$order";
-    }
+    $sql = "SELECT *
+FROM games
+WHERE teamId = %d
+AND teamAScoreFT is %s
+ORDER BY gameDateTime %s
+LIMIT %d";
 
-    $curl = curl_init();
-
-    curl_setopt_array($curl, array(
-        CURLOPT_URL => $url,
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_ENCODING => "",
-        CURLOPT_MAXREDIRS => 10,
-        CURLOPT_TIMEOUT => 30,
-        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-        CURLOPT_CUSTOMREQUEST => "GET",
-        CURLOPT_HTTPHEADER => array(
-            "authorization: Basic MTQwMzM2OmJ4S2duM3pX",
-            "cache-control: no-cache",
-            "content-type: application/json"
-        ),
-    ));
-
-    $response = curl_exec($curl);
-    $err = curl_error($curl);
-
-    curl_close($curl);
-
-    if ($err) {
-        return "cURL Error #:" . $err;
-    } else {
-        return $response;
-    }
+    $stmt = $wpdb->prepare($sql, array($teamid, $isNull, $order, $limit));
+    return $wpdb->get_results($stmt);
 }
 
 function get_games($request) {
@@ -56,7 +32,7 @@ function get_games($request) {
     $teamid = $request->get_params()['teamid'];
     $status = $request->get_params()['status'];
 
-    $response = getDataFromApi($teamid, $status, $limit);
+    $response = getGamesFromDatabase($teamid, $status, $limit);
 // generate random id for using in calender export
     $id = $status . '_game_table' . rand();
     $detailsLink = get_page_link(371);
