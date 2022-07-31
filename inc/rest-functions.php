@@ -7,22 +7,23 @@
  */
 
 function getGamesFromDatabase($teamid, $status, $limit) {
+    global $wpdb;
     if ($status == 'played') {
-        $order = 'desc';
-        $isNull = 'not null';
+        $order = "desc";
+        $played = 1;
     } else {
-        $order = 'asc';
-        $isNull = 'null';
+        $order = "asc";
+        $played = 0;
     }
 
     $sql = "SELECT *
 FROM games
 WHERE teamId = %d
-AND teamAScoreFT is %s
-ORDER BY gameDateTime %s
+AND played = " . $played . "
+ORDER BY gameDateTime " . $order . "
 LIMIT %d";
 
-    $stmt = $wpdb->prepare($sql, array($teamid, $isNull, $order, $limit));
+    $stmt = $wpdb->prepare($sql, array($teamid, $limit));
     return $wpdb->get_results($stmt);
 }
 
@@ -52,8 +53,6 @@ function get_games($request) {
                 <td></td>';
     }
     $str = $str . '</tr></thead><tbody>';
-
-    $response = json_decode($response);
 
     foreach ($response as $game) {
 
