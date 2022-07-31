@@ -15,7 +15,7 @@ function getGamesFromDatabase($teamid, $status, $limit) {
         $order = "asc";
         $played = 0;
     }
-    if ($teamid == null) {
+    if ($teamid == "all") {
         $equal = ">";
         $teamid = 0;
     } else {
