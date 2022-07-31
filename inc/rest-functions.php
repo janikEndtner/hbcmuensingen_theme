@@ -15,10 +15,16 @@ function getGamesFromDatabase($teamid, $status, $limit) {
         $order = "asc";
         $played = 0;
     }
+    if ($teamid == null) {
+        $equal = ">";
+        $teamid = 0;
+    } else {
+        $equal = "=";
+    }
 
     $sql = "SELECT *
 FROM games
-WHERE teamId = %d
+WHERE teamId " . $equal . " %d
 AND played = " . $played . "
 ORDER BY gameDateTime " . $order . "
 LIMIT %d";
