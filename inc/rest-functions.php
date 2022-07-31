@@ -283,13 +283,15 @@ function get_ranking($request) {
 add_action( 'rest_api_init', function () {
     register_rest_route( 'hbcresults/v1', '/games/', array(
         'methods' => 'GET',
-        'callback' => 'get_games'
+        'callback' => 'get_games',
+        'permission_callback' => '__return_true',
     ) );
 } );
 
 add_action( 'rest_api_init', function () {
     register_rest_route( 'hbcresults/v1', '/ranking/', array(
         'methods' => 'GET',
-        'callback' => 'get_ranking'
+        'callback' => 'get_ranking',
+        'permission_callback' => '__return_true',
     ) );
 } );
